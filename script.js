@@ -19,11 +19,7 @@ function createCustomElement(element, className, innerText) {
   return e;
 }
 
-function createProductItemElement({
-  sku,
-  name,
-  image,
-}) {
+function createProductItemElement({ sku, name, image }) {
   const section = document.createElement('section');
   section.className = 'item';
 
@@ -142,10 +138,12 @@ function pegaLista(link, header) {
 
 function itensLocalStorage() {
   for (i = 0; i < localStorage.length; i += 1) {
-    const itensLocal = JSON.parse(localStorage.getItem(localStorage.key(i)));
-    const objProduto = createCartItemElement(itensLocal);
-    const itensCarrinho = document.querySelector('.cart__items');
-    itensCarrinho.appendChild(objProduto);
+    if (localStorage.key(i).includes('MLB')) {
+      const itensLocal = JSON.parse(localStorage.getItem(localStorage.key(i)));
+      const objProduto = createCartItemElement(itensLocal);
+      const itensCarrinho = document.querySelector('.cart__items');
+      itensCarrinho.appendChild(objProduto);
+    }
   }
 }
 
