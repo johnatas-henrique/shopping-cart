@@ -23,7 +23,7 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
   git clone git@github.com:johnatas-henrique/shopping-cart.git
 ```
 
-3. Dê duplo clique no arquivo **index.html** e o projeto vai abrir em seu navegador, não é necessário instalar nada mais.
+3. Abra o diretório do projeto clonado e dê duplo clique no arquivo **index.html** e o projeto vai abrir em seu navegador, não é necessário instalar nada mais.
 
 ---
 
