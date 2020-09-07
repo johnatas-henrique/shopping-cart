@@ -8,6 +8,25 @@ Aqui nesse projeto, também aprendi que por vezes, desenvolvedores utilizam o eq
 
 ---
 
+## Instalação do projeto localmente
+
+Após cada um dos passos, haverá um exemplo do comando a ser digitado para fazer o que está sendo pedido, caso tenha dificuldades e o exemplo não seja suficiente, não hesite em me contatar em _johnatas.henrique@gmail.com_.
+
+1. Abra o terminal e crie um diretório no local de sua preferência com o comando **mkdir**:
+```javascript
+  mkdir projetos-johnatas
+```
+
+2. Entre no diretório que acabou de criar e depois clone o projeto:
+```javascript
+  cd projetos-johnatas
+  git clone git@github.com:johnatas-henrique/shopping-cart.git
+```
+
+3. Dê duplo clique no arquivo **index.html** e o projeto vai abrir em seu navegador, não é necessário instalar nada mais.
+
+---
+
 ## Requisitos do projeto
 
 ### 1. Salve o nome da pessoa no **SessionStorage**
